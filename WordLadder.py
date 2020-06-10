@@ -122,6 +122,9 @@ def _main():
         and call readWordsFile and readPairsFile functions"""
 
     print("\nWelcome to Word Ladder program.\n")
+    print("These are the files you are using:")
+    print("Word List file:", WORDSLIST)
+    print("Pair List file:", PAIRLIST, "\n")
     readWordsFile()
     readPairsFile()
     print("Thank you for playing this program!\n")
